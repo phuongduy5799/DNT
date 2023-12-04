@@ -1,0 +1,35 @@
+/* MyOrders.css */
+.orders-container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .orders-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-list {
+    width: 48%;
+  }
+  
+  .order-card {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .order-card-footer {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .order-details {
+    width: 48%;
+  }
+  
+  .order-details-card {
+    margin-bottom: 20px;
+    padding: 15px;
+  }

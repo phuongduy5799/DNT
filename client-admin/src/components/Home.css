@@ -1,0 +1,136 @@
+/* Home.css */
+
+.container {
+  padding-top: 40px;
+}
+
+.grid-column {
+  text-align: center;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.home-header {
+  
+  margin-left: 50px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-subheader {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.home-description {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-button {
+  animation: fadeInDown 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.home-container {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-container:before,
+.home-container:after {
+  content: "";
+  display: block;
+  width: 50%;
+  background-image: #4149a9; /* Thay #your-color bằng màu nền mong muốn cho hai bên */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home-container:before {
+  left: 0;
+}
+
+.home-container:after {
+  right: 0;
+}
+
+.home-wrapper {
+  background-color: #6a1818; /* Thay #your-color bằng màu nền mong muốn cho hai bên */
+  padding: 20px; /* Điều chỉnh lề và khoảng cách nếu cần thiết */
+}
+
+.home-header {
+  color: #0d0101;
+  margin-bottom: 1em;
+}
+
+.home-subheader {
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.home-description {
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+.home-button {
+  margin-bottom: 1em;
+}

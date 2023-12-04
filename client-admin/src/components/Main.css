@@ -1,0 +1,14 @@
+.body-admin {
+    display: flex;
+  }
+  
+  .content-admin {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .admin-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

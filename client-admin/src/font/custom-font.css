@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  /* Áp dụng font cho các thành phần trong trang */
+  .home-header,
+  .home-subheader,
+  .home-description {
+    font-family: 'CustomFont', sans-serif;
+  }
+  

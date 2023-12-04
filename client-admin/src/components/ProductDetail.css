@@ -1,0 +1,38 @@
+.product-detail-container {
+    margin-top: 20px;
+  }
+  
+  .product-detail-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-detail-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-detail-container td {
+    padding: 10px;
+  }
+  
+  .product-detail-container input[type="text"],
+  .product-detail-container select {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .product-detail-container input[type="file"] {
+    display: none;
+  }
+  
+  .product-detail-container .ui.button {
+    margin-right: 10px;
+  }
+  
+  .product-detail-container img {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 10px auto;
+  }

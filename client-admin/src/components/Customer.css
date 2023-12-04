@@ -1,0 +1,53 @@
+.customer-container {
+    margin: 20px;
+  }
+  
+  .customer-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .order-list-container {
+    margin-bottom: 20px;
+  }
+  
+  .order-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .order-detail-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-button {
+    background-color: #2185d0;
+    color: white;
+  }
+  
+  .deactivate-button {
+    background-color: #db2828;
+    color: white;
+  }
+  
+  .datatable {
+    cursor: pointer;
+  }
+  
+  .order-detail-container {
+    margin-top: 40px;
+  }
+  
+  .order-detail-container table {
+    margin: 0 auto;
+  }
+  
+  .order-detail-container img {
+    display: block;
+    margin: 0 auto;
+  }
+  
